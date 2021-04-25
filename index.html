@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora pocha</title>
+</head>
+<body>
+
+<style>
+    .container{
+        height: 100vh;
+        background-color: darkcyan;
+        color: black;
+    }
+    .botones{
+        width: 200px;
+        margin: 0 auto;
+    }
+    .botones table{
+        width: 100%;
+        text-align: center;
+        background-color: white;
+    }
+    .botones td{
+        background-color: beige;
+        border-radius: 15px;
+        width: 40px;
+     }
+    .botones th{
+        background-color: black;
+        color: white;
+    }
+    .botones .btn-operacion{
+        color: darkgreen;
+    }
+    .botones .btn-numero{
+        color: black;
+    }
+    .botones .btn-resultado{
+        color: white;
+        background-color: darkgreen;
+    }
+</style>
+    <div class="container">
+            <div class="botones">
+                <table>
+                    <tr>
+                        <th colspan="4" class="pantalla">
+                            <p class="resultado">40&euro;</p>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="boton btn-operacion">C</p>
+                        </td>
+                        <td>
+                            <p class="boton btn-operacion">( )</p>
+                        </td>
+                        <td>
+                            <p class="boton btn-operacion">%</p>
+                        </td>
+                        <td>
+                            <p class="boton btn-operacion">/</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="boton btn-numero">7</p>
+                        </td>
+                        <td>
+                            <p class="boton btn-numero">8</p>
+                        </td>
+                        <td>
+                            <p class="boton btn-numero">9</p>
+                        </td>
+                        <td>
+                            <p class="boton btn-operacion">X</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="boton btn-numero">4</p>
+                        </td>
+                        <td>
+                            <p class="boton btn-numero">5</p>
+                        </td>
+                        <td>
+                            <p class="boton btn-numero">6</p>
+                        </td>
+                        <td>
+                            <p class="boton btn-operacion">-</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="boton btn-numero">1</p>
+                        </td>
+                        <td>
+                            <p class="boton btn-numero">2</p>
+                        </td>
+                        <td>
+                            <p class="boton btn-numero">3</p>
+                        </td>
+                        <td>
+                            <p class="boton btn-operacion">+</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="boton btn-operacion">+/-</p>
+                        </td>
+                        <td>
+                            <p class="boton btn-numero">0</p>
+                        </td>
+                        <td>
+                            <p class="boton btn-operacion">,</p>
+                        </td>
+                        <td class="btn-resultado">
+                            <p class="boton ">=</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+    </div>
+</body>
+</html>
